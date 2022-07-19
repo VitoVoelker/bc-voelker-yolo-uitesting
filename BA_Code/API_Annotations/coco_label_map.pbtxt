@@ -1,0 +1,10 @@
+item {
+    name: "Checkpoint1",
+    id: 1,
+    display_name: "Checkpoint1"
+}
+item {
+    name: "Checkpoint2",
+    id: 2,
+    display_name: "Checkpoint2"
+}
