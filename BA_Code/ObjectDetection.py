@@ -1,3 +1,4 @@
+from attr import NOTHING
 from matplotlib.font_manager import json_dump
 import torch
 import numpy as np
@@ -34,11 +35,11 @@ class ObjectDetection:
         return cv2.VideoCapture(self.capture_index)
 
     def load_model(self, model_name):
-        """
+        """ 
         Loads Yolo5 model from pytorch hub.
         :return: Trained Pytorch model.
         """
-        model = torch.hub.load('yolov5', 'custom', path='C:\\vector-race-gruppe-2\Model\CheckpointModel\\best.pt', source='local', force_reload=True)  # local repo
+        model = torch.hub.load('yolov5', 'custom', path='Training\Run9_500_UIObj\\best (7).pt', source='local', force_reload=True)  # local repo
 
         return model
 
@@ -77,7 +78,7 @@ class ObjectDetection:
             conf = np.around(all_conf[i], decimals=2)
             label = all_labels[i]
 
-            if conf >= 0.2:
+            if conf >= 0.4:
 
                 x1, y1, x2, y2 = int(cords[0]), int(cords[1]), int(cords[2]), int(cords[3])
                 bgr = (0, 255, 0)
@@ -95,33 +96,52 @@ class ObjectDetection:
         cap = self.get_video_capture()
         assert cap.isOpened()
 
+        width  = int(cap.get(3))  # float `width`
+        height = int(cap.get(4)) 
+        print(width)
+        print(height)
+        cv2.namedWindow("YOLOv5 Detection")
+        cv2.resizeWindow("YOLOv5 Detection", 1280, 720)
+        createTrackbars(width, height)
+                          
+        
         while True:
           
             ret, frame = cap.read()
             assert ret
             
-            frame = cv2.resize(frame, (832,832))
+            y1 = cv2.getTrackbarPos("y1", "YOLOv5 Detection")
+            y2 = cv2.getTrackbarPos("y2", "YOLOv5 Detection")
+            x1 = cv2.getTrackbarPos("x1", "YOLOv5 Detection")
+            x2 = cv2.getTrackbarPos("x2", "YOLOv5 Detection")
+            
+            if(y2 < y1):
+                y2 = y1 + 1
 
+            if(x2 < x1):
+                x2 = x1 + 1
+            
+            cv2.normalize(frame, frame, cv2.getTrackbarPos("Alpha", "YOLOv5 Detection"), cv2.getTrackbarPos("Beta", "YOLOv5 Detection"), cv2.NORM_MINMAX)
+
+            frame = frame[y1:y2, x1:x2]
             unedited_frame = frame
-
             takeimage(unedited_frame)
 
             start_time = time()
             results = self.score_frame(frame)
             frame = self.plot_boxes(results, frame)
-            
             end_time = time()
+
             fps = 1/np.round(end_time - start_time, 2)
-            #print(f"Frames Per Second : {fps}")
-             
-            cv2.putText(frame, f'FPS: {int(fps)}', (20,70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 2)
+            #cv2.putText(frame, f'FPS: {int(fps)}', (20,70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 2)
             
             cv2.imshow('YOLOv5 Detection', frame)
-            
+            cv2.resizeWindow("YOLOv5 Detection", 1280, 720)
+
             #quit if q is pressed
             if cv2.waitKey(5) & 0xFF == ord('q'):
                 break
-     
+
         cap.release()
     
 def takeimage(unedited_frame):
@@ -135,7 +155,7 @@ def takeimage(unedited_frame):
                     cv2.imwrite(img_path, unedited_frame)
                     print("{} written!".format(img_name))
                     print("IMAGE SAVED")
-                    #upload_image(img_path)   
+                    upload_image(img_path)   
                     #upload_annotation(upload_image(img_path))
                     
 
@@ -152,7 +172,7 @@ def takeimage(unedited_frame):
                         ymax = row[3]
                         datarow = [img_name, classname, 832, 832, xmin,ymin,xmax,ymax]
                         data1.append(datarow)
-                        print(data1)
+                        #print(data1)
                     
                     del data1[0]
                     df = pd.DataFrame(data1, columns=["filename", "class", "width", "height", "xmin", "ymin", "xmax", "ymax"])
@@ -164,6 +184,29 @@ def takeimage(unedited_frame):
 
                     json.dump([{"type": "integer", "img_counter": my_dict[0]["img_counter"] + 1}],json_file)
 
+def createTrackbars(width, height):
+
+    cv2.createTrackbar('Alpha', 'YOLOv5 Detection',
+                    0, 255,
+                    nothing) 
+    cv2.createTrackbar('Beta', 'YOLOv5 Detection',
+                    255, 255,
+                    nothing) 
+    cv2.createTrackbar('y1', 'YOLOv5 Detection',
+                    70, height,
+                    nothing) 
+    cv2.createTrackbar('y2', 'YOLOv5 Detection',
+                    600, height,
+                    nothing)                 
+    cv2.createTrackbar('x1', 'YOLOv5 Detection',
+                    400, width,
+                    nothing)        
+    cv2.createTrackbar('x2', 'YOLOv5 Detection',
+                    825, width,
+                    nothing)  
+
+def nothing(x):
+    pass
 # Create a new object and execute.
-detector = ObjectDetection(capture_index=0, model_name='best.pt')
+detector = ObjectDetection(capture_index=1, model_name='best.pt')
 detector()

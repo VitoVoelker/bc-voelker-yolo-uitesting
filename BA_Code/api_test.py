@@ -113,7 +113,7 @@ def upload_image(img_path):
 
     # Construct the URL
     upload_url = "".join([
-        "https://api.roboflow.com/dataset/anki-vector-customobjectcodes/upload",
+        "https://api.roboflow.com/dataset/android-ui-objects/upload",
         "?api_key=bJkakjWyse01WesCPFUH"
     ])
 
@@ -121,7 +121,7 @@ def upload_image(img_path):
     r = requests.post(upload_url, data=m, headers={'Content-Type': m.content_type})
 
     # Output result
-    print(r.json()["id"])
+    #print(r.json()["id"])
     return r.json()["id"]
 
 def upload_annotation(img_id):
