@@ -1,0 +1,71 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_364.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Checkmark"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 13616.071441411972,
+            "image_id": 0,
+            "bbox": [
+                482.92034912109375,
+                402.9627685546875,
+                284.24609375,
+                47.90240478515625
+            ],
+            "category_id": 2,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 560.5618277192116,
+            "image_id": 0,
+            "bbox": [
+                743.7232055664062,
+                262.5888977050781,
+                23.31298828125,
+                24.0450439453125
+            ],
+            "category_id": 1,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 8114.78547250852,
+            "image_id": 0,
+            "bbox": [
+                504.672119140625,
+                456.1661682128906,
+                231.5386962890625,
+                35.047210693359375
+            ],
+            "category_id": 2,
+            "id": 2
+        }
+    ]
+}

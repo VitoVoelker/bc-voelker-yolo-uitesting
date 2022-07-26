@@ -1,0 +1,90 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_458.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ClickableText"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "Input"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 2727.6713577210903,
+            "image_id": 0,
+            "bbox": [
+                640.8357543945312,
+                481.1748962402344,
+                89.1826171875,
+                30.585235595703125
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 9964.578438684344,
+            "image_id": 0,
+            "bbox": [
+                526.219970703125,
+                320.2922668457031,
+                317.0792236328125,
+                31.4261474609375
+            ],
+            "category_id": 3,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 11469.11061707139,
+            "image_id": 0,
+            "bbox": [
+                529.4610595703125,
+                300.6019287109375,
+                315.9827880859375,
+                36.296630859375
+            ],
+            "category_id": 3,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 3615.836845293641,
+            "image_id": 0,
+            "bbox": [
+                650.771240234375,
+                384.4707336425781,
+                68.749755859375,
+                52.59417724609375
+            ],
+            "category_id": 2,
+            "id": 3
+        }
+    ]
+}

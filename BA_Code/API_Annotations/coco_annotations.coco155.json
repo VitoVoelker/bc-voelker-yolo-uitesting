@@ -1,0 +1,71 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_155.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "StarIcon"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 824.1426050662994,
+            "image_id": 0,
+            "bbox": [
+                560.545166015625,
+                550.9287719726562,
+                30.84228515625,
+                26.72119140625
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 1300.1912283599377,
+            "image_id": 0,
+            "bbox": [
+                516.8397216796875,
+                547.02783203125,
+                42.851318359375,
+                30.3419189453125
+            ],
+            "category_id": 1,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 1010.410765428095,
+            "image_id": 0,
+            "bbox": [
+                530.6715698242188,
+                213.54537963867188,
+                35.9095458984375,
+                28.137664794921847
+            ],
+            "category_id": 2,
+            "id": 2
+        }
+    ]
+}

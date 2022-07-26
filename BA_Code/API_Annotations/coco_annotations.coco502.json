@@ -1,0 +1,85 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_502.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 864.4590422697357,
+            "image_id": 0,
+            "bbox": [
+                220.71270751953125,
+                227.4073944091797,
+                30.50354003906247,
+                28.339630126953125
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 5457.823665031463,
+            "image_id": 0,
+            "bbox": [
+                161.86985778808594,
+                132.74464416503906,
+                151.49775695800776,
+                36.02577209472656
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 146.83777084983012,
+            "image_id": 0,
+            "bbox": [
+                92.43983459472656,
+                13.147957801818848,
+                13.073745727539062,
+                11.231499671936035
+            ],
+            "category_id": 1,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 145.3245940228955,
+            "image_id": 0,
+            "bbox": [
+                111.27340698242188,
+                11.377129554748535,
+                11.949539184570327,
+                12.16152286529541
+            ],
+            "category_id": 1,
+            "id": 3
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_292.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "TrashIcon"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 671.4269896345213,
+            "image_id": 0,
+            "bbox": [
+                451.749267578125,
+                96.17597198486328,
+                32.5802001953125,
+                20.608436584472656
+            ],
+            "category_id": 1,
+            "id": 0
+        }
+    ]
+}

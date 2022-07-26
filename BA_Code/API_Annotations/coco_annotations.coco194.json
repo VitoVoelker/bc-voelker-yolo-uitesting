@@ -1,0 +1,38 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_194.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "FloatingActionButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 2769.459248226136,
+            "image_id": 0,
+            "bbox": [
+                760.7369995117188,
+                449.2309875488281,
+                51.1265869140625,
+                54.168670654296875
+            ],
+            "category_id": 1,
+            "id": 0
+        }
+    ]
+}

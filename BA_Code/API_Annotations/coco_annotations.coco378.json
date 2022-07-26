@@ -1,0 +1,85 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_378.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ClickableText"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Icon"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 460.9088823013011,
+            "image_id": 0,
+            "bbox": [
+                477.9082946777344,
+                92.18693542480467,
+                24.39605712890625,
+                18.892761230468764
+            ],
+            "category_id": 2,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 664.3155121207237,
+            "image_id": 0,
+            "bbox": [
+                688.6881713867188,
+                571.1715087890625,
+                37.9090576171875,
+                17.52392578125
+            ],
+            "category_id": 1,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 3656.932079315181,
+            "image_id": 0,
+            "bbox": [
+                515.885498046875,
+                92.5889129638672,
+                152.15625,
+                24.03405761718747
+            ],
+            "category_id": 1,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 1365.9153323024511,
+            "image_id": 0,
+            "bbox": [
+                469.6589050292969,
+                480.400146484375,
+                38.78240966796875,
+                35.219970703125
+            ],
+            "category_id": 2,
+            "id": 3
+        }
+    ]
+}
