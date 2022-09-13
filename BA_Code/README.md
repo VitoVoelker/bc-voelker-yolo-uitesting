@@ -6,4 +6,5 @@ The file Ojectdection.py is the main programm for this thesis. Running this file
 
 api_test.py is file which contains the possibilty to send annotated pictures to roboflow. 
 
-testonimage.py will test a model on a local picture.
+testonimage.py will test a model on a local picture
+

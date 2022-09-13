@@ -6,4 +6,6 @@ The folder BA_Code contains all code used in the thesis.
 
 The folder Testimages contains images to test on. 
 
-The Folder Training contains all models that resulted out of the training.
+The folder Training contains all models that resulted out of the training.
+
+The folder runs/detect contains results of scored testimages.
