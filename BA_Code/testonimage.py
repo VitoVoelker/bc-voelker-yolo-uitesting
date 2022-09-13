@@ -1,12 +1,17 @@
-from PIL import Image
-import torch
+import cv2
 
-model = torch.hub.load('yolov5', 'custom', path='Training\Run9_500_UIObj\\best (7).pt', source='local', force_reload=True)  # local repo
+def returnCameraIndexes():
+    # checks the first 10 indexes.
+    index = 0
+    arr = []
+    i = 10
+    while i > 0:
+        cap = cv2.VideoCapture(index)
+        if cap.read()[0]:
+            arr.append(index)
+            cap.release()
+        index += 1
+        i -= 1
+    return arr
 
-#open image 
-imgs = Image.open('Testimages\978064ec-623d-4091-b4be-1e69a92e22bb.jpg') 
-
-results = model(imgs, size=640) 
-
-
-results.save('Testimages\\results') 
+print(returnCameraIndexes()) 

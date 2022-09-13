@@ -39,7 +39,7 @@ class ObjectDetection:
         Loads Yolo5 model from pytorch hub.
         :return: Trained Pytorch model.
         """
-        model = torch.hub.load('yolov5', 'custom', path='Training\Run9_500_UIObj\\best (7).pt', source='local', force_reload=True)  # local repo
+        model = torch.hub.load('yolov5', 'custom', path='Training\Run_UIObjfinalrun\\best.pt', source='local', force_reload=True)  # local repo
 
         return model
 
@@ -78,7 +78,7 @@ class ObjectDetection:
             conf = np.around(all_conf[i], decimals=2)
             label = all_labels[i]
 
-            if conf >= 0.4:
+            if conf >= 0.2:
 
                 x1, y1, x2, y2 = int(cords[0]), int(cords[1]), int(cords[2]), int(cords[3])
                 bgr = (0, 255, 0)
@@ -133,7 +133,7 @@ class ObjectDetection:
             end_time = time()
 
             fps = 1/np.round(end_time - start_time, 2)
-            #cv2.putText(frame, f'FPS: {int(fps)}', (20,70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 2)
+            cv2.putText(frame, f'FPS: {int(fps)}', (20,70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 2)
             
             cv2.imshow('YOLOv5 Detection', frame)
             cv2.resizeWindow("YOLOv5 Detection", 1280, 720)
@@ -208,5 +208,5 @@ def createTrackbars(width, height):
 def nothing(x):
     pass
 # Create a new object and execute.
-detector = ObjectDetection(capture_index=1, model_name='best.pt')
+detector = ObjectDetection(capture_index=0, model_name='best.pt')
 detector()
