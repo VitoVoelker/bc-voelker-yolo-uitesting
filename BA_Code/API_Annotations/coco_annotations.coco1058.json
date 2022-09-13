@@ -1,0 +1,85 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1058.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 253.83837638539154,
+            "image_id": 0,
+            "bbox": [
+                326.4250183105469,
+                38.99313354492188,
+                14.953338623046818,
+                16.975364685058587
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 239.96213276669732,
+            "image_id": 0,
+            "bbox": [
+                62.55265045166016,
+                38.40033721923828,
+                14.621269226074212,
+                16.41185379028321
+            ],
+            "category_id": 1,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 1504.312119885115,
+            "image_id": 0,
+            "bbox": [
+                209.70640563964844,
+                67.40448760986328,
+                58.60948181152344,
+                25.666702270507812
+            ],
+            "category_id": 2,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 2896.1625900269123,
+            "image_id": 0,
+            "bbox": [
+                111.60614776611328,
+                65.49224853515625,
+                97.23332977294922,
+                29.785697937011705
+            ],
+            "category_id": 2,
+            "id": 3
+        }
+    ]
+}

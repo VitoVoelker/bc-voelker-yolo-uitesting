@@ -1,0 +1,76 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1145.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "ExitButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "RoundCheckmark"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 396.57189483661205,
+            "image_id": 0,
+            "bbox": [
+                301.560302734375,
+                495.9841003417969,
+                20.683868408203125,
+                19.173004150390625
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 190.5586065184325,
+            "image_id": 0,
+            "bbox": [
+                345.1100769042969,
+                372.4832763671875,
+                16.697662353515625,
+                11.41229248046875
+            ],
+            "category_id": 3,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 370.31016777455807,
+            "image_id": 0,
+            "bbox": [
+                301.6051330566406,
+                496.5028991699219,
+                20.72900390625,
+                17.864349365234375
+            ],
+            "category_id": 2,
+            "id": 2
+        }
+    ]
+}

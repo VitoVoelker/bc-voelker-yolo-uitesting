@@ -1,0 +1,76 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1006.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Input"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "OnOffSwitch"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 13124.515573508805,
+            "image_id": 0,
+            "bbox": [
+                41.9856071472168,
+                451.1773376464844,
+                272.0867500305176,
+                48.23651123046875
+            ],
+            "category_id": 3,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 454.9421132474672,
+            "image_id": 0,
+            "bbox": [
+                304.02264404296875,
+                37.74003219604492,
+                22.183258056640625,
+                20.50835418701172
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 8281.286369657719,
+            "image_id": 0,
+            "bbox": [
+                56.78780746459961,
+                16.900632858276367,
+                244.69507217407227,
+                33.84329032897949
+            ],
+            "category_id": 1,
+            "id": 2
+        }
+    ]
+}

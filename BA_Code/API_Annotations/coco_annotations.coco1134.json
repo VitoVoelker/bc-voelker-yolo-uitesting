@@ -1,0 +1,90 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1134.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "RoundCheckmark"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 199.57084186607972,
+            "image_id": 0,
+            "bbox": [
+                345.3289794921875,
+                32.30572509765625,
+                11.09442138671875,
+                17.98839569091797
+            ],
+            "category_id": 2,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 240.7671594133135,
+            "image_id": 0,
+            "bbox": [
+                70.67696380615234,
+                32.74131393432617,
+                15.328704833984375,
+                15.706947326660156
+            ],
+            "category_id": 1,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 258.9788317773491,
+            "image_id": 0,
+            "bbox": [
+                64.86832427978516,
+                490.0301208496094,
+                15.869209289550781,
+                16.319580078125
+            ],
+            "category_id": 3,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 350.56744242925316,
+            "image_id": 0,
+            "bbox": [
+                341.2557983398437,
+                337.7030334472656,
+                16.973175048828182,
+                20.654205322265625
+            ],
+            "category_id": 3,
+            "id": 3
+        }
+    ]
+}

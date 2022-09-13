@@ -1,0 +1,52 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_905.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ClickableText"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 612.3228625534098,
+            "image_id": 0,
+            "bbox": [
+                175.69178771972656,
+                277.673095703125,
+                34.32133483886716,
+                17.84088134765625
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 961.6290624989191,
+            "image_id": 0,
+            "bbox": [
+                226.18870544433597,
+                276.58453369140625,
+                45.797317504882784,
+                20.99749755859375
+            ],
+            "category_id": 1,
+            "id": 1
+        }
+    ]
+}

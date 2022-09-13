@@ -1,0 +1,90 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_507.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 245.6380859002237,
+            "image_id": 0,
+            "bbox": [
+                38.906768798828125,
+                40.58966445922852,
+                16.518356323242188,
+                14.870613098144524
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 158.58886739581078,
+            "image_id": 0,
+            "bbox": [
+                32.83066177368164,
+                12.163745880126951,
+                14.023799896240241,
+                11.30855178833008
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 9852.106304086978,
+            "image_id": 0,
+            "bbox": [
+                31.61125946044922,
+                391.8206481933594,
+                299.21692657470703,
+                32.926300048828125
+            ],
+            "category_id": 3,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 151.03296076277184,
+            "image_id": 0,
+            "bbox": [
+                52.87143325805664,
+                11.13443374633789,
+                12.24142837524414,
+                12.337854385375977
+            ],
+            "category_id": 2,
+            "id": 3
+        }
+    ]
+}

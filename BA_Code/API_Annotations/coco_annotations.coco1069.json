@@ -1,0 +1,52 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1069.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Icon"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 430.73213801498144,
+            "image_id": 0,
+            "bbox": [
+                282.3446655273437,
+                34.76179504394531,
+                23.408416748046932,
+                18.400737762451165
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 186.2223991844803,
+            "image_id": 0,
+            "bbox": [
+                330.1372375488281,
+                34.972537994384766,
+                11.2615966796875,
+                16.536056518554688
+            ],
+            "category_id": 1,
+            "id": 1
+        }
+    ]
+}

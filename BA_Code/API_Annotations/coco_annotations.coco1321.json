@@ -1,0 +1,57 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1321.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "FloatingActionButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 285.02535250326036,
+            "image_id": 0,
+            "bbox": [
+                36.06247329711914,
+                23.47007179260254,
+                18.531753540039062,
+                15.380376815795898
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 2835.228372953832,
+            "image_id": 0,
+            "bbox": [
+                261.0570373535156,
+                445.41986083984375,
+                54.1844482421875,
+                52.32550048828125
+            ],
+            "category_id": 2,
+            "id": 1
+        }
+    ]
+}

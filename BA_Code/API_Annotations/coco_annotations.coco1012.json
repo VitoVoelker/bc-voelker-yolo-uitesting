@@ -1,0 +1,76 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1012.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "ExitButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "Input"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 306.6438799236495,
+            "image_id": 0,
+            "bbox": [
+                41.27178192138672,
+                39.2296028137207,
+                19.382057189941406,
+                15.821018218994148
+            ],
+            "category_id": 2,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 6644.903269589318,
+            "image_id": 0,
+            "bbox": [
+                54.70805740356445,
+                17.69557762145996,
+                229.8037223815918,
+                28.915559768676758
+            ],
+            "category_id": 3,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 271.5279322292188,
+            "image_id": 0,
+            "bbox": [
+                42.10417175292969,
+                38.85874176025391,
+                17.429275512695312,
+                15.578842163085923
+            ],
+            "category_id": 1,
+            "id": 2
+        }
+    ]
+}

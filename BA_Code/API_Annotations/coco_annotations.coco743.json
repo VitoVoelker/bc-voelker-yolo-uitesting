@@ -1,0 +1,38 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_743.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "OnOffSwitch"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 526.3958372175694,
+            "image_id": 0,
+            "bbox": [
+                284.8551025390625,
+                197.528076171875,
+                24.742431640625,
+                21.2750244140625
+            ],
+            "category_id": 1,
+            "id": 0
+        }
+    ]
+}

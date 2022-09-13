@@ -1,0 +1,71 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_913.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "OnOffSwitch"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 249.44642255478539,
+            "image_id": 0,
+            "bbox": [
+                44.52273941040039,
+                31.0279541015625,
+                17.059120178222656,
+                14.622467041015625
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 514.8652977868915,
+            "image_id": 0,
+            "bbox": [
+                281.811767578125,
+                438.7509765625,
+                25.538330078125,
+                20.160491943359375
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 622.1576001979411,
+            "image_id": 0,
+            "bbox": [
+                282.1474609375,
+                365.9264221191406,
+                29.897491455078125,
+                20.8096923828125
+            ],
+            "category_id": 2,
+            "id": 2
+        }
+    ]
+}

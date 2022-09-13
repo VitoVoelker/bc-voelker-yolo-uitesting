@@ -1,0 +1,132 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1349.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "OnOffSwitch"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "RoundCheckmark"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 522.4031649694078,
+            "image_id": 0,
+            "bbox": [
+                37.29141998291016,
+                33.133209228515625,
+                27.65946960449218,
+                18.88695526123047
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 679.9050289067692,
+            "image_id": 0,
+            "bbox": [
+                43.3655891418457,
+                356.4034729003906,
+                33.09254837036133,
+                20.545562744140682
+            ],
+            "category_id": 3,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 965.9505580551925,
+            "image_id": 0,
+            "bbox": [
+                42.82772064208984,
+                273.3774719238281,
+                35.22186279296876,
+                27.42474365234375
+            ],
+            "category_id": 3,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 951.7511016537901,
+            "image_id": 0,
+            "bbox": [
+                42.15745162963867,
+                312.608154296875,
+                32.917728424072266,
+                28.91302490234375
+            ],
+            "category_id": 3,
+            "id": 3
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 422.6448911186319,
+            "image_id": 0,
+            "bbox": [
+                201.66116333007807,
+                358.53582763671875,
+                21.099212646484432,
+                20.03131103515625
+            ],
+            "category_id": 3,
+            "id": 4
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 424.3105463976966,
+            "image_id": 0,
+            "bbox": [
+                201.98306274414065,
+                358.42999267578125,
+                20.766860961914034,
+                20.432098388671875
+            ],
+            "category_id": 2,
+            "id": 5
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 309.03472617967,
+            "image_id": 0,
+            "bbox": [
+                54.31808471679688,
+                193.69692993164065,
+                14.765678405761712,
+                20.92926025390622
+            ],
+            "category_id": 1,
+            "id": 6
+        }
+    ]
+}

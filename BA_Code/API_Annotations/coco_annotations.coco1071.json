@@ -1,0 +1,38 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1071.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Checkmark"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 443.8447296030936,
+            "image_id": 0,
+            "bbox": [
+                55.23463439941406,
+                14.967636108398438,
+                22.180648803710938,
+                20.010448455810547
+            ],
+            "category_id": 1,
+            "id": 0
+        }
+    ]
+}

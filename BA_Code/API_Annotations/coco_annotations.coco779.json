@@ -1,0 +1,76 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_779.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Checkmark"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 2710.5812857369883,
+            "image_id": 0,
+            "bbox": [
+                237.29263305664065,
+                156.63131713867188,
+                73.27560424804685,
+                36.99159240722656
+            ],
+            "category_id": 3,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 129.06894597411156,
+            "image_id": 0,
+            "bbox": [
+                310.0076599121094,
+                513.8286743164062,
+                7.031494140625,
+                18.3558349609375
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 273.69773962721274,
+            "image_id": 0,
+            "bbox": [
+                254.2963714599609,
+                516.3726806640625,
+                16.92353820800784,
+                16.172607421875
+            ],
+            "category_id": 1,
+            "id": 2
+        }
+    ]
+}

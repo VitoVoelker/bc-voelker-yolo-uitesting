@@ -1,0 +1,85 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_738.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 3470.0243072299054,
+            "image_id": 0,
+            "bbox": [
+                70.14442443847656,
+                115.93427276611328,
+                109.35340881347656,
+                31.732200622558594
+            ],
+            "category_id": 2,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 119.86348311777692,
+            "image_id": 0,
+            "bbox": [
+                308.4842224121094,
+                34.657169342041016,
+                7.388336181640625,
+                16.223339080810547
+            ],
+            "category_id": 1,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 529.430799347756,
+            "image_id": 0,
+            "bbox": [
+                40.55720901489258,
+                120.57589721679688,
+                24.411571502685547,
+                21.687698364257812
+            ],
+            "category_id": 1,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 3068.568543857604,
+            "image_id": 0,
+            "bbox": [
+                34.614742279052734,
+                151.33267211914062,
+                102.03635025024414,
+                30.073287963867188
+            ],
+            "category_id": 2,
+            "id": 3
+        }
+    ]
+}

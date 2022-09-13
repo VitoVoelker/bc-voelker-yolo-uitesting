@@ -1,0 +1,76 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1195.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Checkmark"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "ExitButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 290.51061379152816,
+            "image_id": 0,
+            "bbox": [
+                68.94810485839844,
+                32.499977111816406,
+                18.445350646972656,
+                15.749801635742188
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 87.86102944985005,
+            "image_id": 0,
+            "bbox": [
+                361.1428833007813,
+                487.2314758300781,
+                7.329711914062443,
+                11.986968994140682
+            ],
+            "category_id": 3,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 86.47709764656611,
+            "image_id": 0,
+            "bbox": [
+                93.46529388427734,
+                121.81582641601562,
+                7.8058013916015625,
+                11.078567504882812
+            ],
+            "category_id": 2,
+            "id": 2
+        }
+    ]
+}

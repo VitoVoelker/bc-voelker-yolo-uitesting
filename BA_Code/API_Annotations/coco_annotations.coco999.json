@@ -1,0 +1,95 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_999.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "ExitButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "Input"
+        },
+        {
+            "supercategory": "None",
+            "id": 4,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 11645.503111327998,
+            "image_id": 0,
+            "bbox": [
+                38.644866943359375,
+                454.26171875,
+                280.6799621582031,
+                41.490325927734375
+            ],
+            "category_id": 4,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 281.8956352043897,
+            "image_id": 0,
+            "bbox": [
+                42.40807342529297,
+                39.66765594482422,
+                18.1246337890625,
+                15.553176879882812
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 9030.097847737197,
+            "image_id": 0,
+            "bbox": [
+                51.48992156982422,
+                17.863906860351562,
+                261.76807403564453,
+                34.496559143066406
+            ],
+            "category_id": 3,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 249.2375998996141,
+            "image_id": 0,
+            "bbox": [
+                43.05938720703125,
+                39.05543899536133,
+                16.444679260253913,
+                15.156124114990234
+            ],
+            "category_id": 1,
+            "id": 3
+        }
+    ]
+}

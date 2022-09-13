@@ -1,0 +1,71 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_730.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 11665.483760989155,
+            "image_id": 0,
+            "bbox": [
+                41.41250991821289,
+                452.364501953125,
+                278.44701766967773,
+                41.894805908203125
+            ],
+            "category_id": 2,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 380.44707494508475,
+            "image_id": 0,
+            "bbox": [
+                300.8789367675781,
+                349.7333068847656,
+                21.695831298828125,
+                17.535491943359375
+            ],
+            "category_id": 1,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 757.7115352442488,
+            "image_id": 0,
+            "bbox": [
+                45.07959747314453,
+                347.6856994628906,
+                26.77617645263672,
+                28.2979736328125
+            ],
+            "category_id": 2,
+            "id": 2
+        }
+    ]
+}

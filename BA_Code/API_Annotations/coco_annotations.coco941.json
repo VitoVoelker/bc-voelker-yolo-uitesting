@@ -1,0 +1,118 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_941.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ClickableText"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "ExitButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "Icon"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 322.4742539768631,
+            "image_id": 0,
+            "bbox": [
+                43.78559112548828,
+                29.817916870117188,
+                20.239341735839844,
+                15.933040618896484
+            ],
+            "category_id": 3,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 372.5965661688242,
+            "image_id": 0,
+            "bbox": [
+                304.0387268066406,
+                29.512008666992188,
+                19.83380126953125,
+                18.785938262939453
+            ],
+            "category_id": 3,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 297.780031338333,
+            "image_id": 0,
+            "bbox": [
+                228.8970642089844,
+                447.5179138183594,
+                15.388488769531193,
+                19.350830078125
+            ],
+            "category_id": 3,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 345.29697418538854,
+            "image_id": 0,
+            "bbox": [
+                300.1468505859375,
+                71.09618377685547,
+                19.491973876953125,
+                17.714828491210938
+            ],
+            "category_id": 3,
+            "id": 3
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 327.46673601167373,
+            "image_id": 0,
+            "bbox": [
+                300.1947631835937,
+                71.21544647216797,
+                19.001403808593807,
+                17.23381805419922
+            ],
+            "category_id": 2,
+            "id": 4
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 1061.6107244593993,
+            "image_id": 0,
+            "bbox": [
+                27.39037704467773,
+                478.2018432617188,
+                50.0276985168457,
+                21.220458984374943
+            ],
+            "category_id": 1,
+            "id": 5
+        }
+    ]
+}

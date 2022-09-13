@@ -1,0 +1,99 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_618.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Icon"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 310.7287401207723,
+            "image_id": 0,
+            "bbox": [
+                107.82039642333984,
+                510.3170166015625,
+                17.64289093017578,
+                17.61212158203125
+            ],
+            "category_id": 2,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 388.2906301803876,
+            "image_id": 0,
+            "bbox": [
+                171.90786743164062,
+                511.0671997070313,
+                19.180511474609375,
+                20.244018554687443
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 370.69136901199823,
+            "image_id": 0,
+            "bbox": [
+                302.8529663085937,
+                511.0778198242188,
+                18.950439453125057,
+                19.561096191406193
+            ],
+            "category_id": 2,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 153.47469266690254,
+            "image_id": 0,
+            "bbox": [
+                46.56576919555664,
+                510.6749877929688,
+                10.574668884277344,
+                14.513427734374943
+            ],
+            "category_id": 1,
+            "id": 3
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 157.72029481439674,
+            "image_id": 0,
+            "bbox": [
+                145.33180236816406,
+                12.704615592956545,
+                13.143569946289062,
+                11.999806404113768
+            ],
+            "category_id": 2,
+            "id": 4
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_878.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 291.24104999273555,
+            "image_id": 0,
+            "bbox": [
+                43.02823257446289,
+                31.44380187988281,
+                19.234901428222656,
+                15.141281127929691
+            ],
+            "category_id": 1,
+            "id": 0
+        }
+    ]
+}

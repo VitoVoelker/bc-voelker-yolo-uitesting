@@ -1,0 +1,90 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1350.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Input"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 528.4884457796579,
+            "image_id": 0,
+            "bbox": [
+                36.80485916137695,
+                32.62273025512695,
+                28.360301971435547,
+                18.634796142578125
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 970.3013629023917,
+            "image_id": 0,
+            "bbox": [
+                186.57620239257807,
+                105.57196044921876,
+                45.963363647460966,
+                21.11032104492186
+            ],
+            "category_id": 3,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 1024.4681072240928,
+            "image_id": 0,
+            "bbox": [
+                232.0623016357422,
+                106.22378540039062,
+                50.63835144042969,
+                20.23107147216797
+            ],
+            "category_id": 3,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 8756.730914019237,
+            "image_id": 0,
+            "bbox": [
+                47.13884735107422,
+                29.08619880676269,
+                273.5183792114258,
+                32.015146255493164
+            ],
+            "category_id": 2,
+            "id": 3
+        }
+    ]
+}

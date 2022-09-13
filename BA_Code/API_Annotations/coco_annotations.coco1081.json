@@ -1,0 +1,71 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1081.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "FloatingActionButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Icon"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 507.22271896421444,
+            "image_id": 0,
+            "bbox": [
+                47.67538833618164,
+                490.9840393066406,
+                19.850582122802734,
+                25.552032470703125
+            ],
+            "category_id": 2,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 899.5511645358049,
+            "image_id": 0,
+            "bbox": [
+                197.58189392089844,
+                495.2535400390625,
+                36.04100036621091,
+                24.9591064453125
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 2845.445370959118,
+            "image_id": 0,
+            "bbox": [
+                297.0315856933594,
+                419.4835205078125,
+                52.17474365234375,
+                54.536834716796875
+            ],
+            "category_id": 1,
+            "id": 2
+        }
+    ]
+}

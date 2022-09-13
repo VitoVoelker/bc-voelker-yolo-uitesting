@@ -1,0 +1,90 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1003.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "ExitButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 8857.055789454827,
+            "image_id": 0,
+            "bbox": [
+                90.9553680419922,
+                455.8882446289063,
+                228.54002380371094,
+                38.75494384765619
+            ],
+            "category_id": 3,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 252.20597998518497,
+            "image_id": 0,
+            "bbox": [
+                42.743896484375,
+                39.42946243286133,
+                16.647735595703125,
+                15.149566650390625
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 2239.650035795057,
+            "image_id": 0,
+            "bbox": [
+                133.8795166015625,
+                148.49664306640625,
+                67.58421325683594,
+                33.13865661621094
+            ],
+            "category_id": 3,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 254.184123710962,
+            "image_id": 0,
+            "bbox": [
+                42.87701416015625,
+                39.55107879638672,
+                17.24673843383789,
+                14.73809814453125
+            ],
+            "category_id": 1,
+            "id": 3
+        }
+    ]
+}

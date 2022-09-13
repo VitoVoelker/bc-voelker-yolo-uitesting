@@ -1,0 +1,85 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_684.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "OnOffSwitch"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 154.52493605631753,
+            "image_id": 0,
+            "bbox": [
+                26.13367462158203,
+                36.242095947265625,
+                11.90311050415039,
+                12.981895446777344
+            ],
+            "category_id": 1,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 170.35418829880734,
+            "image_id": 0,
+            "bbox": [
+                314.6037292480469,
+                403.4400634765625,
+                13.845001220703125,
+                12.304382324218807
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 210.1765490793623,
+            "image_id": 0,
+            "bbox": [
+                38.742225646972656,
+                35.65385437011719,
+                13.719512939453125,
+                15.319534301757812
+            ],
+            "category_id": 1,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 132.45616962388226,
+            "image_id": 0,
+            "bbox": [
+                316.3837280273437,
+                339.0666198730469,
+                11.148559570312557,
+                11.881011962890625
+            ],
+            "category_id": 2,
+            "id": 3
+        }
+    ]
+}

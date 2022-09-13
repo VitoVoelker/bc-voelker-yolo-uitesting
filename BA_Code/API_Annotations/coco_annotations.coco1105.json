@@ -1,0 +1,85 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1105.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ExitButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Icon"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 400.1765570146963,
+            "image_id": 0,
+            "bbox": [
+                326.8782653808594,
+                508.8788146972656,
+                24.465118408203125,
+                16.357025146484375
+            ],
+            "category_id": 2,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 267.05337533564307,
+            "image_id": 0,
+            "bbox": [
+                44.827392578125,
+                475.3595886230469,
+                12.993839263916016,
+                20.55230712890625
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 203.8986103348434,
+            "image_id": 0,
+            "bbox": [
+                330.5703430175781,
+                69.18500518798828,
+                16.293212890625,
+                12.514328002929688
+            ],
+            "category_id": 2,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 247.4690517561976,
+            "image_id": 0,
+            "bbox": [
+                340.5706787109375,
+                65.12075805664062,
+                16.088897705078125,
+                15.381355285644531
+            ],
+            "category_id": 1,
+            "id": 3
+        }
+    ]
+}

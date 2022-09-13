@@ -1,0 +1,156 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_973.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "ExitButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 4,
+            "name": "Input"
+        },
+        {
+            "supercategory": "None",
+            "id": 5,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 4938.189763215021,
+            "image_id": 0,
+            "bbox": [
+                33.146663665771484,
+                323.352783203125,
+                136.2983283996582,
+                36.230743408203125
+            ],
+            "category_id": 5,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 242.68330337363295,
+            "image_id": 0,
+            "bbox": [
+                303.2222900390625,
+                30.949932098388672,
+                16.825103759765625,
+                14.423881530761719
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 244.25396687075408,
+            "image_id": 0,
+            "bbox": [
+                44.677616119384766,
+                30.840436935424805,
+                16.387706756591797,
+                14.904706954956055
+            ],
+            "category_id": 1,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 4885.846109902486,
+            "image_id": 0,
+            "bbox": [
+                178.04710388183594,
+                326.3796691894531,
+                146.4047088623047,
+                33.3721923828125
+            ],
+            "category_id": 5,
+            "id": 3
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 7698.519937523757,
+            "image_id": 0,
+            "bbox": [
+                51.60735321044922,
+                76.5811538696289,
+                254.7436294555664,
+                30.220657348632812
+            ],
+            "category_id": 4,
+            "id": 4
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 493.9551177462563,
+            "image_id": 0,
+            "bbox": [
+                131.02706909179688,
+                161.58412170410156,
+                28.080764770507812,
+                17.59051513671875
+            ],
+            "category_id": 3,
+            "id": 5
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 4470.06643411718,
+            "image_id": 0,
+            "bbox": [
+                41.16533279418945,
+                113.03401947021484,
+                128.56412887573242,
+                34.76915740966797
+            ],
+            "category_id": 5,
+            "id": 6
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 4099.565670781767,
+            "image_id": 0,
+            "bbox": [
+                178.92295837402344,
+                116.6771240234375,
+                135.89436340332026,
+                30.16729736328125
+            ],
+            "category_id": 5,
+            "id": 7
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_579.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "FloatingActionButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Icon"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 754.2762651592493,
+            "image_id": 0,
+            "bbox": [
+                264.7806701660156,
+                501.0398864746094,
+                26.48486328125,
+                28.479522705078125
+            ],
+            "category_id": 2,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 331.81664386534254,
+            "image_id": 0,
+            "bbox": [
+                38.56087493896485,
+                40.35323333740234,
+                20.39635467529296,
+                16.26842880249024
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 164.36125365260523,
+            "image_id": 0,
+            "bbox": [
+                320.3710021972656,
+                40.44340896606445,
+                9.597320556640625,
+                17.125743865966797
+            ],
+            "category_id": 2,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 806.9081891840324,
+            "image_id": 0,
+            "bbox": [
+                264.4305419921875,
+                500.9438171386719,
+                27.722808837890625,
+                29.106292724609375
+            ],
+            "category_id": 1,
+            "id": 3
+        }
+    ]
+}

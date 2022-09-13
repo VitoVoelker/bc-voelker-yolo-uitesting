@@ -1,0 +1,90 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_771.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ArrowButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 5632.002497673958,
+            "image_id": 0,
+            "bbox": [
+                103.86457061767578,
+                404.6765747070313,
+                151.6055679321289,
+                37.14904785156244
+            ],
+            "category_id": 3,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 137.03562513738814,
+            "image_id": 0,
+            "bbox": [
+                84.69393920898438,
+                460.0745239257813,
+                9.7620849609375,
+                14.037536621093693
+            ],
+            "category_id": 2,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 303.4768447811366,
+            "image_id": 0,
+            "bbox": [
+                44.57555389404297,
+                37.14823913574219,
+                18.19532012939453,
+                16.67884063720703
+            ],
+            "category_id": 1,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 90.72315176390111,
+            "image_id": 0,
+            "bbox": [
+                292.3914489746094,
+                484.74700927734375,
+                8.19696044921875,
+                11.067901611328125
+            ],
+            "category_id": 1,
+            "id": 3
+        }
+    ]
+}

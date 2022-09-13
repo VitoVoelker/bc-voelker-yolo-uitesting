@@ -1,0 +1,38 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_942.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 6703.13418993447,
+            "image_id": 0,
+            "bbox": [
+                98.92237854003906,
+                324.52899169921875,
+                157.85841369628906,
+                42.46295166015625
+            ],
+            "category_id": 1,
+            "id": 0
+        }
+    ]
+}

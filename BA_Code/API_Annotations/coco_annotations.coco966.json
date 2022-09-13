@@ -1,0 +1,90 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_966.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ExitButton"
+        },
+        {
+            "supercategory": "None",
+            "id": 2,
+            "name": "Icon"
+        },
+        {
+            "supercategory": "None",
+            "id": 3,
+            "name": "TextButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 375.9513075614886,
+            "image_id": 0,
+            "bbox": [
+                41.915653228759766,
+                30.40096473693848,
+                23.524105072021484,
+                15.981534957885739
+            ],
+            "category_id": 2,
+            "id": 0
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 13068.368596471846,
+            "image_id": 0,
+            "bbox": [
+                34.568817138671875,
+                455.7648620605469,
+                283.88177490234375,
+                46.0345458984375
+            ],
+            "category_id": 3,
+            "id": 1
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 237.66160261631012,
+            "image_id": 0,
+            "bbox": [
+                292.4601745605469,
+                85.99171447753906,
+                17.4990234375,
+                13.5814208984375
+            ],
+            "category_id": 1,
+            "id": 2
+        },
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 5601.341802639887,
+            "image_id": 0,
+            "bbox": [
+                177.71580505371094,
+                412.0509948730469,
+                140.6184539794922,
+                39.8336181640625
+            ],
+            "category_id": 3,
+            "id": 3
+        }
+    ]
+}

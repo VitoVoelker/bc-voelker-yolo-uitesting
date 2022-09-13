@@ -1,0 +1,38 @@
+{
+    "images": [
+        {
+            "height": 832,
+            "width": 832,
+            "id": 0,
+            "file_name": "opencv_frame_1077.png"
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 0,
+            "name": "None"
+        },
+        {
+            "supercategory": "None",
+            "id": 1,
+            "name": "ExitButton"
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "iscrowd": 0,
+            "area": 390.36361932814907,
+            "image_id": 0,
+            "bbox": [
+                55.620872497558594,
+                15.041827201843262,
+                22.48345184326172,
+                17.362263679504395
+            ],
+            "category_id": 1,
+            "id": 0
+        }
+    ]
+}
